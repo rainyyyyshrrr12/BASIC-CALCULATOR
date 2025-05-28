@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASIC CALCULATOR</title>
+    <linlk rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="calculator">
+        <div class="display">
+            <div class="memory-indicator" id="memoryIndicator"></div>
+            <div class="previous-operand"></div>
+            <div class="current-operand">0</div>
+        </div>
+        <div class="buttons">
+            <button class="memory" data-memory="MC">MC</button>
+            <button class="memory" data-memory="MR">MR</button>
+            <button class="memory" data-memory="M+">M+</button>
+            <button class="memory" data-memory="M-">M-</button>
+            <button class="clear" data-all-clear>AC</button>
+            
+            <button class="function" data-function="sqrt">√</button>
+            <button class="delete" data-delete>DEL</button>
+            <button class="operation" data-operation>%</button>
+            <button class="operation" data-operation>÷</button>
+            <button class="function" data-function="percent">%₂</button>
+            
+            <button class="number" data-number>7</button>
+            <button class="number" data-number>8</button>
+            <button class="number" data-number>9</button>
+            <button class="operation" data-operation>×</button>
+            <button class="function" data-function="square">x²</button>
+            
+            <button class="number" data-number>4</button>
+            <button class="number" data-number>5</button>
+            <button class="number" data-number>6</button>
+            <button class="operation" data-operation>-</button>
+            <button class="function" data-function="reciprocal">1/x</button>
+            
+            <button class="number" data-number>1</button>
+            <button class="number" data-number>2</button>
+            <button class="number" data-number>3</button>
+            <button class="operation" data-operation>+</button>
+            <button class="equals" data-equals rowspan="2">=</button>
+            
+            <button class="number double" data-number>0</button>
+            <button class="number" data-number>.</button>
+            <button class="function" data-function="negate">±</button>
+        </div>
+    </div>
+</body>
+</html>
