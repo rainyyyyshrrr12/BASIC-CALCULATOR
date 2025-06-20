@@ -37,7 +37,8 @@ basic-calculator/
 
 ## 📸 Screenshot
 
-> *[You can insert a screenshot of your calculator UI here for better visual representation.]*
+<img width="491" alt="image" src="https://github.com/user-attachments/assets/a9b8e343-9f3b-4e81-ba2b-a6d188e65676" />
+
 
 ---
 
